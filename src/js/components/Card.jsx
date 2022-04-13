@@ -8,7 +8,7 @@ function Card(props) {
 			<div className="card__location">
 				<img className="card__location-icon" src={locationIcon} width={7} height={9.5} alt="" aria-hidden="true" />
 				<p className="card__location-country">{props.location}</p>
-				<a className="card__location-link" href={props.googleMapsUrl}>
+				<a className="card__location-link" href={props.googleMapsUrl} target="_blank">
 					View on Google Maps
 				</a>
 			</div>
